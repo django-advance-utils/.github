@@ -1,0 +1,30 @@
+# Django and Python utils
+
+Open-source Django and Python libraries.
+
+## Django UI libraries
+
+These work together: helpers → menus → modals → datatables, with cards and the report builder on top.
+Helpers, menus, modals and datatables continue Ian Jones's [jonesim](https://github.com/jonesim) libraries,
+with thanks to Ian. The pip names changed but the Python import names did not.
+
+| Project | What it does | PyPI | Stars |
+| --- | --- | --- | --- |
+| [Ajax Advanced Helpers](https://github.com/django-advance-utils/ajax-advanced-helpers) | Post with Ajax and send commands back to the page from Django views. | [![PyPI](https://img.shields.io/pypi/v/ajax-advanced-helpers?label=PyPI)](https://pypi.org/project/ajax-advanced-helpers/) | [![Stars](https://img.shields.io/github/stars/django-advance-utils/ajax-advanced-helpers?label=Stars)](https://github.com/django-advance-utils/ajax-advanced-helpers/stargazers) |
+| [Django Advanced Menus](https://github.com/django-advance-utils/django-advanced-menus) | Navigation menus, tab menus and buttons, with tabs loaded over Ajax. | [![PyPI](https://img.shields.io/pypi/v/django-advanced-menus?label=PyPI)](https://pypi.org/project/django-advanced-menus/) | [![Stars](https://img.shields.io/github/stars/django-advance-utils/django-advanced-menus?label=Stars)](https://github.com/django-advance-utils/django-advanced-menus/stargazers) |
+| [Django Advanced Modals](https://github.com/django-advance-utils/django-advanced-modals) | Nested Bootstrap modals with Ajax form handling. | [![PyPI](https://img.shields.io/pypi/v/django-advanced-modals?label=PyPI)](https://pypi.org/project/django-advanced-modals/) | [![Stars](https://img.shields.io/github/stars/django-advance-utils/django-advanced-modals?label=Stars)](https://github.com/django-advance-utils/django-advanced-modals/stargazers) |
+| [Django Advanced Datatables](https://github.com/django-advance-utils/django-advanced-datatables) | Server-side DataTables with JavaScript filters, defined in Python. | [![PyPI](https://img.shields.io/pypi/v/django-advanced-datatables?label=PyPI)](https://pypi.org/project/django-advanced-datatables/) | [![Stars](https://img.shields.io/github/stars/django-advance-utils/django-advanced-datatables?label=Stars)](https://github.com/django-advance-utils/django-advanced-datatables/stargazers) |
+| [Django Cards](https://github.com/django-advance-utils/django-cards) | Detail cards for views, with Ajax reload, search and export. | [![PyPI](https://img.shields.io/pypi/v/django-cards?label=PyPI)](https://pypi.org/project/django-cards/) | [![Stars](https://img.shields.io/github/stars/django-advance-utils/django-cards?label=Stars)](https://github.com/django-advance-utils/django-cards/stargazers) |
+| [Django Advanced Report Builder](https://github.com/django-advance-utils/django-advanced-report-builder) | Let users build, preview and export reports from a front-end UI. | [![PyPI](https://img.shields.io/pypi/v/django-advanced-report-builder?label=PyPI)](https://pypi.org/project/django-advanced-report-builder/) | [![Stars](https://img.shields.io/github/stars/django-advance-utils/django-advanced-report-builder?label=Stars)](https://github.com/django-advance-utils/django-advanced-report-builder/stargazers) |
+| [Django Advanced PDF](https://github.com/django-advance-utils/django-advanced-pdf) | Build PDFs from XML templates with Django template syntax, using ReportLab. | [![PyPI](https://img.shields.io/pypi/v/django-advanced-pdf?label=PyPI)](https://pypi.org/project/django-advanced-pdf/) | [![Stars](https://img.shields.io/github/stars/django-advance-utils/django-advanced-pdf?label=Stars)](https://github.com/django-advance-utils/django-advanced-pdf/stargazers) |
+
+## Utilities
+
+| Project | What it does | PyPI | Stars |
+| --- | --- | --- | --- |
+| [Time Stamped Model](https://github.com/django-advance-utils/time-stamped-model) | Adds `created` and `modified` fields to Django models. | [![PyPI](https://img.shields.io/pypi/v/time-stamped-model?label=PyPI)](https://pypi.org/project/time-stamped-model/) | [![Stars](https://img.shields.io/github/stars/django-advance-utils/time-stamped-model?label=Stars)](https://github.com/django-advance-utils/time-stamped-model/stargazers) |
+| [Expression Builder](https://github.com/django-advance-utils/expression-builder) | Build query expressions. | [![PyPI](https://img.shields.io/pypi/v/expression-builder?label=PyPI)](https://pypi.org/project/expression-builder/) | [![Stars](https://img.shields.io/github/stars/django-advance-utils/expression-builder?label=Stars)](https://github.com/django-advance-utils/expression-builder/stargazers) |
+| [Date Offset](https://github.com/django-advance-utils/date-offset) | Date arithmetic utilities. | [![PyPI](https://img.shields.io/pypi/v/date-offset?label=PyPI)](https://pypi.org/project/date-offset/) | [![Stars](https://img.shields.io/github/stars/django-advance-utils/date-offset?label=Stars)](https://github.com/django-advance-utils/date-offset/stargazers) |
+| [Advanced Geometry Utils](https://github.com/django-advance-utils/advanced-geometry-utils) | Work with 2D and 3D geometries in Python. | [![PyPI](https://img.shields.io/pypi/v/advanced-geometry-utils?label=PyPI)](https://pypi.org/project/advanced-geometry-utils/) | [![Stars](https://img.shields.io/github/stars/django-advance-utils/advanced-geometry-utils?label=Stars)](https://github.com/django-advance-utils/advanced-geometry-utils/stargazers) |
+| [Django Currency Field](https://github.com/django-advance-utils/django-currency-field) | Store currency as an integer number of minor units (£100.00 as 10000). | — | [![Stars](https://img.shields.io/github/stars/django-advance-utils/django-currency-field?label=Stars)](https://github.com/django-advance-utils/django-currency-field/stargazers) |
+| [Django Event Tasks](https://github.com/django-advance-utils/django-event-tasks) | Tasks with types, statuses, assignees and reminders, as Django models. | — | [![Stars](https://img.shields.io/github/stars/django-advance-utils/django-event-tasks?label=Stars)](https://github.com/django-advance-utils/django-event-tasks/stargazers) |
